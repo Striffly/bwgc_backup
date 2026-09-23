@@ -18,6 +18,7 @@ set -u
 : "${BACKUP_EMAIL_TO:=}"
 : "${BACKUP_ENV:=false}"
 : "${BACKUP_DAYS:=}"
+: "${BACKUP_DIR:=/data/backups}"
 : "${BACKUP_ENCRYPTION_KEY:=}"
 : "${BACKUP_RCLONE_CONF:=}"
 : "${BACKUP_RCLONE_DEST:=}"
